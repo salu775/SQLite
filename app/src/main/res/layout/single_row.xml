@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/single_item_NameTV"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
+        android:text="@string/name"
+        android:textStyle="italic|bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/single_item_LocationTV"
+        android:layout_below="@id/single_item_NameTV"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="@string/location"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/background_dark"
+        android:layout_below="@id/single_item_LocationTV"
+        />
+
+
+</RelativeLayout>

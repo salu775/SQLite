@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="create_database">Create Database</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_location">Enter the location</string>
+    <string name="insert">Insert</string>
+    <string name="get_values">Get Values</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+</resources>
